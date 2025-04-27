@@ -42,3 +42,7 @@ Para rodar o código, você precisará das seguintes bibliotecas no Arduino IDE:
 - Biblioteca **PS2X_lib** para comunicação com o controle PS2.
 - Biblioteca **AFMotor** para controle da ponte H (se necessário).
 
+![Foto1](carro1.jpg)
+![Foto2](carro2.jpg)
+![Foto3](carro3.jpg)
+![Foto4](carro4.jpg)
