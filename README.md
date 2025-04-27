@@ -1,6 +1,6 @@
-# Projeto de Carrinho Controlado por PS2 com Arduino
+# Projeto de Carrinho Controlado por um controle de PS2 com Arduino
 
-Este projeto utiliza um **Arduino Uno R3** para controlar um carrinho de controle remoto com um **controle de PS2**. O carrinho é alimentado por duas baterias 18650 e tem as seguintes funcionalidades:
+Este projeto utiliza um **Arduino Uno R3** para controlar um carrinho de controle remoto com um **controle de PS2** o receptor foi adaptado para conectar ao arduino. O carrinho é alimentado por um powerbank e tem as seguintes funcionalidades:
 - Controle da direção usando um **servo motor**
 - Movimento para frente e para trás com um **motor DC** controlado por uma **ponte H**
 - **Buzina** ativada com um **buzzer**
@@ -14,7 +14,7 @@ Este projeto utiliza um **Arduino Uno R3** para controlar um carrinho de control
 - **Buzzer** como buzina
 - **Carrinho de controle remoto** (estrutura/base)
 - **Controle PS2 wireless** com **receptor**
-- **Duas baterias 18650**
+- **Um powerbank de 5v**
 
 ## Esquema de Montagem
 
@@ -31,16 +31,9 @@ Este projeto utiliza um **Arduino Uno R3** para controlar um carrinho de control
 ## Funcionalidades
 
 - Controle total do carrinho com o **controle PS2**: aceleração, ré e direção.
-- **Buzina** ativada com um botão no controle PS2.
+- **Buzina** ativada com o botão bolinha no controle.
 - **Direção** controlada por um **servo motor**.
-
-## Como Usar
-
-1. Monte o circuito conforme o esquema de montagem.
-2. Faça o upload do código para o **Arduino Uno R3**.
-3. Ligue o carrinho com as **baterias 18650**.
-4. Use o **controle PS2** para controlar o carrinho.
-
+  
 ## Dependências
 
 Para rodar o código, você precisará das seguintes bibliotecas no Arduino IDE:
@@ -49,6 +42,3 @@ Para rodar o código, você precisará das seguintes bibliotecas no Arduino IDE:
 - Biblioteca **PS2X_lib** para comunicação com o controle PS2.
 - Biblioteca **AFMotor** para controle da ponte H (se necessário).
 
-## Alimentação
-
-O projeto utiliza duas baterias 18650, que são conectadas diretamente ao Arduino para alimentar todos os componentes. Verifique a polaridade correta ao conectar as baterias.
